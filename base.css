@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+body {
+  min-height: 100vh;
+  background-color: #e4e8f0;
+}

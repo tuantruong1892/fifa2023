@@ -1,0 +1,127 @@
+/* backdrop-filter :  */
+
+.banner {
+  padding-left: 30px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://digitalhub.fifa.com/transform/2ad3545c-140f-436c-afe8-dd066f63719c/Enzo-Fernandez-Argentina?io=transform:fill,height:868,width:1536&quality=75);
+}
+.banner-group {
+  padding-top: 450px;
+  color: rgb(196, 192, 192);
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
+}
+
+.banner-desc {
+  text-transform: uppercase;
+}
+.banner-group h3 {
+  padding: 10px 0px;
+  font-size: 25px;
+}
+/* banner */
+.tournaments {
+  text-align: center;
+  padding: 50px 30px;
+  background-color: #065694;
+}
+.tournaments-element {
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  transform: 0.5s;
+  cursor: pointer;
+}
+.tournaments-element:not(:last-child) {
+  padding-right: 10px;
+}
+p {
+  color: rgb(212, 207, 207);
+}
+.tournaments-element img {
+  width: 100%;
+  margin-bottom: 10px;
+  /* object-fit: cover; */
+}
+.banner-store {
+  background-image: url(https://digitalhub.fifa.com/transform/81be39fe-e184-484c-9254-75b6cb15655f/FPLS_FIFAStore_Banner_01?io=transform:fill,aspectratio:21x9,width:1536&quality=75);
+  background-position: center;
+  height: 800px;
+  background-size: cover;
+}
+.banner-store-item {
+  width: 800px;
+  transform: translateX(30px);
+  padding-top: 18%;
+}
+.banner-store-item p {
+  margin: 20px 0;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 1.4;
+}
+.banner-store-item h2 {
+  color: rgb(232, 233, 235);
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+.banner-store-item button {
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 5px 5px;
+  background-color: transparent;
+  color: rgb(212, 207, 207);
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.banner-store-item button:hover {
+  transform: scale(1.05);
+  color: black;
+  background: #fff;
+}
+.store figure {
+  display: inline-block;
+  width: 15.4%;
+  border-radius: 1px;
+}
+.store figure img {
+  width: 100%;
+}
+.store {
+  padding: 15px 30px;
+}
+.store figure:not(:last-child) {
+  margin-right: 20px;
+}
+.banner-store.banner-store2 {
+  background-image: url(https://digitalhub.fifa.com/transform/6dbd41e4-2acb-4d70-a237-0e328e15bb2d/FIFAPLUS_Tournaments_ORIGINALS_1920x747?io=transform:fill,aspectratio:21x9,width:1536&quality=75);
+}
+.play-zone {
+  padding: 30px;
+  text-align: center;
+}
+.play-zone-item {
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url(https://digitalhub.fifa.com/transform/89d716b1-495a-4ab7-a64c-4bab013deb6d/FIFAPLS_PlayZone_Rail_TH_04-GLOBAL?io=transform:fill,aspectratio:16x9,width:450&quality=75);
+}
+.play-zone-item:not(:last-child) {
+  margin-right: 30px;
+}
+.play-zone-item p {
+  color: #fff;
+  background-color: rgba(155, 149, 149, 0.5);
+  transform: translateY(250px);
+  transition: 0.5s;
+}
+.play-zone-item:hover p {
+    transform: translateY(160px);
+}
